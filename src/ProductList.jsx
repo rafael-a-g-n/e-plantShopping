@@ -373,12 +373,9 @@ function ProductList({ onHomeClick }) {
               index // Loop through each category in plantsArray
             ) => (
               <div key={index}>
-                {" "}
-                {/* Unique key for each category div */}
-                <h1>
-                  <div>{category.category}</div>{" "}
-                  {/* Display the category name */}
-                </h1>
+                <div className="product-category">
+                  <h1>{category.category}</h1>
+                </div>
                 <div className="product-list">
                   {" "}
                   {/* Container for the list of plant cards */}

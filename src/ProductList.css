@@ -59,6 +59,15 @@ body {
 }
 
 /* Product Card */
+
+.product-category {
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+  border: 1px solid rgb(5, 4, 4);
+  border-left: none;
+  border-right: none;
+}
 .product-card {
   flex: 0 0 calc(33.33% - 20px);
   max-width: calc(26.33% - 20px);
